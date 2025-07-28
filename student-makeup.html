@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Makeup | Sultana Artistry</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  <style>
+    /* Page-Specific Styles */
+    .page-header {
+      background: linear-gradient(rgba(138, 44, 76, 0.8), rgba(138, 44, 76, 0.8)), url('https://source.unsplash.com/random/1600x600/?student,makeup') center/cover no-repeat;
+      color: white;
+      text-align: center;
+      padding: 120px 20px 60px;
+    }
+    .page-header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 16px;
+    }
+    .page-header p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .breadcrumb {
+      text-align: center;
+      margin: 20px 0;
+      font-size: 0.95rem;
+      color: #8a2c4c;
+    }
+    .breadcrumb a {
+      color: #c17c7c;
+    }
+    .content-section {
+      padding: 60px 0;
+      background: white;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 0 20px;
+    }
+    .looks-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+    .look-card {
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .look-card:hover {
+      transform: translateY(-8px);
+    }
+    .look-card img {
+      width: 100%;
+      height: 220px;
+      object-fit: cover;
+    }
+    .look-info {
+      padding: 15px;
+      text-align: center;
+    }
+    .look-info h4 {
+      color: #8a2c4c;
+      margin-bottom: 8px;
+    }
+    .faq-item {
+      margin-bottom: 20px;
+      border-bottom: 1px dashed #ddd;
+      padding-bottom: 15px;
+    }
+    .faq-item h4 {
+      color: #8a2c4c;
+      margin-bottom: 8px;
+    }
+    .btn-center {
+      text-align: center;
+      margin: 40px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="breadcrumb">
+      <a href="index.html">← Back to Home</a>
+    </div>
+    <h1>Student Makeup Artistry</h1>
+    <p>Natural, fresh, and camera-ready looks for school events, competitions, and portraits</p>
+  </section>
+
+  <!-- Intro Section -->
+  <section class="content-section">
+    <div class="container">
+      <h2 class="section-title">Why Choose Student Makeup?</h2>
+      <p>As a student, your makeup should enhance your natural beauty — not overpower it. At <strong>Sultana Artistry</strong>, I specialize in soft, age-appropriate, and long-lasting makeup that’s perfect for:</p>
+      <ul style="margin: 20px 0 20px 30px; line-height: 2;">
+        <li>School functions & prize distributions</li>
+        <li>Dance and drama competitions</li>
+        <li>College welcome events</li>
+        <li>Modeling & photoshoots</li>
+        <li>Proms and farewell parties</li>
+      </ul>
+      <p>I use only <strong>dermatologically tested, non-comedogenic products</strong> that are gentle on young skin and won’t clog pores — because beauty should never come at the cost of health.</p>
+    </div>
+  </section>
+
+  <!-- Types of Looks -->
+  <section class="content-section" style="background: #fdf3f0;">
+    <div class="container">
+      <h2 class="section-title">Popular Student Looks</h2>
+      <p style="text-align: center; max-width: 700px; margin: 0 auto 30px;">
+        From subtle day glam to elegant evening styles — I customize every look to suit your outfit, skin tone, and occasion.
+      </p>
+      <div class="looks-grid">
+        <div class="look-card">
+          <img src="images/4.jpg" alt="Natural Day Look" />
+          <div class="look-info">
+            <h4>Natural Day Glow</h4>
+            <p>Light foundation, soft blush, and nude lips — perfect for school events.</p>
+          </div>
+        </div>
+        <div class="look-card">
+          <img src="images/2.jpg" alt="Dewy Glow" />
+          <div class="look-info">
+            <h4>Dewy Fresh Glow</h4>
+            <p>Hydrated skin, subtle shimmer, and pinky tones for a youthful vibe.</p>
+          </div>
+        </div>
+        <div class="look-card">
+          <img src="images/3.jpg" alt="Soft Smokey" />
+          <div class="look-info">
+            <h4>Soft Smokey Eyes</h4>
+            <p>Perfect for stage performances — dramatic but age-appropriate.</p>
+          </div>
+        </div>
+                </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tips Section -->
+  <section class="content-section">
+    <div class="container">
+      <h2 class="section-title">Makeup Tips for Students</h2>
+      <ul style="margin-left: 20px; margin-top: 20px; line-height: 2;">
+        <li><strong>Less is more:</strong> Avoid heavy foundation and bold lips daily.</li>
+        <li><strong>Skin prep is key:</strong> Always cleanse and moisturize before makeup.</li>
+        <li><strong>Use sunscreen:</strong> Even under makeup — protection matters!</li>
+        <li><strong>Remove makeup at night:</strong> Never sleep with makeup on.</li>
+        <li><strong>Carry blotting papers:</strong> To manage shine during long events.</li>
+      </ul>
+      <p style="margin-top: 20px;"><em>I also offer <strong>personalized skin & makeup consultations</strong> for students — ask me during your session!</em></p>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="content-section" style="background: #fdf3f0;">
+    <div class="container">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <h4>Can I wear makeup to school?</h4>
+        <p>Yes, if your school allows light makeup. I recommend a natural 'no-makeup' look that enhances your features subtly.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Is your makeup suitable for sensitive skin?</h4>
+        <p>Absolutely! I use only hypoallergenic, non-toxic brands like Lakmé, Maybelline, and Faces Canada — and I always do a patch test if needed.</p>
+      </div>
+      <div class="faq-item">
+        <h4>How long does student makeup last?</h4>
+        <p>With proper priming and setting, it lasts 6–8 hours — perfect for full-day events.</p>
+      </div>
+      <div class="faq-item">
+        <h4>Can you teach me to do my own makeup?</h4>
+        <p>Yes! I offer <strong>mini-workshops for students</strong> — individual or in small groups. <a href="index.html#classes" style="color:#c17c7c;">Learn more here</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="content-section">
+    <div class="container">
+      <div class="btn-center">
+        <a href="index.html#classes" class="btn">Join My Student Makeup Class</a>
+      </div>
+      <p style="text-align: center; margin-top: 20px;">
+        Or <a href="index.html#contact" style="color:#c17c7c;">contact me</a> to book a session for your next event!
+      </p>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Sultana Artistry. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
